@@ -8,7 +8,7 @@ services:
    
 
   backend:
-   build: ./dummy-backend
+   image: backen
    ports:
       - "3000:3000"
    networks:
